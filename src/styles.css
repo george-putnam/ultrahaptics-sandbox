@@ -8,6 +8,7 @@
   margin-left: -20px;
 }
 
+html,
 body {
   overflow-x: hidden;
 }
@@ -24,6 +25,12 @@ body {
 
 .slick-slide {
   cursor: pointer;
+}
+
+.slick-slider {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
 }
 
 /* 
